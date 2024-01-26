@@ -179,8 +179,8 @@ public class GameCollectionServiceTest {
 
         }
         // Assert
-        // List should be empty because the game was deleted
-        Assert.assertTrue(gameCollectionService.getGameCollection().isEmpty());
+        // List should NOT be empty because the game was not deleted
+        Assert.assertFalse(gameCollectionService.getGameCollection().isEmpty());
     }
 
 }
