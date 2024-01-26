@@ -352,3 +352,690 @@ INFO	2024-01-25 16:44:52,837	29	org.example.Main	[main]	Game added successfully:
 INFO	2024-01-25 16:44:52,837	29	org.example.Main	[main]	Attempting to remove game with Title:Super Mario Party
 WARN	2024-01-25 16:44:52,837	29	org.example.Main	[main]	Game not found in collection
 WARN	2024-01-25 16:44:52,837	29	org.example.Main	[main]	Throwing GameException because matching Title not found in collection:Super Mario Party
+INFO	2024-01-26 09:35:43,027	0	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 09:35:43,027	0	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 09:35:43,045	18	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 09:35:43,046	19	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, -5, 2024-01-26
+WARN	2024-01-26 09:35:43,048	21	org.example.Main	[main]	Throwing GameException due to negative Play Time:-5.0
+INFO	2024-01-26 09:35:43,051	24	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 09:35:43,051	24	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 09:35:43,051	24	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 09:35:43,051	24	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+INFO	2024-01-26 09:35:43,052	25	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+WARN	2024-01-26 09:35:43,053	26	org.example.Main	[main]	Throwing GameException due to duplicate game Title in collection:Golden Sun
+INFO	2024-01-26 09:35:43,055	28	org.example.Main	[main]	Attempting to add a game:, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 09:35:43,055	28	org.example.Main	[main]	Throwing GameException due to empty title:
+INFO	2024-01-26 09:35:43,058	31	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 09:35:43,058	31	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 09:35:43,058	31	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 09:35:43,058	31	org.example.Main	[main]	Attempting to remove game with Title:Golden Sun
+INFO	2024-01-26 09:35:43,058	31	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 09:35:43,058	31	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 09:35:43,059	32	org.example.Main	[main]	Game removed successfully:Golden Sun
+INFO	2024-01-26 09:35:43,060	33	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 09:35:43,060	33	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 09:35:43,060	33	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 09:35:43,060	33	org.example.Main	[main]	Attempting to remove game with Title:Super Mario Party
+WARN	2024-01-26 09:35:43,060	33	org.example.Main	[main]	Game not found in collection
+WARN	2024-01-26 09:35:43,062	35	org.example.Main	[main]	Throwing GameException because matching Title not found in collection:Super Mario Party
+INFO	2024-01-26 10:02:22,671	0	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:02:22,672	1	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:02:22,683	12	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:02:22,683	12	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:02:22,684	13	org.example.Main	[main]	Title update successfully. Updated Game info:Title: Super Mario RPG
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:11:07,263	0	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:11:07,263	0	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:11:07,275	12	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:11:07,275	12	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:11:07,275	12	org.example.Main	[main]	Platform update successfully. Updated Game info:Title: Golden Sun
+ 	 Platform: PC
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:12:22,985	0	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:12:22,986	1	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:12:22,998	13	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:12:22,999	14	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:12:22,999	14	org.example.Main	[main]	Platform update successfully. Updated Game info:Title: Golden Sun
+ 	 Platform: PC
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:12:48,385	0	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:12:48,385	0	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:12:48,396	11	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:12:48,396	11	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:12:48,397	12	org.example.Main	[main]	Platform update successfully. Updated Game info:Title: Golden Sun
+ 	 Platform: PC
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:15:05,597	0	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:15:05,597	0	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:15:05,607	10	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:15:05,607	10	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:15:05,608	11	org.example.Main	[main]	Genre update successfully. Updated Game info:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: Racing
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:00,648	0	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 82.04, 2024-01-26
+WARN	2024-01-26 10:18:00,648	0	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:18:00,659	11	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 82.04
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:00,659	11	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 82.04
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:00,660	12	org.example.Main	[main]	Play Time update successfully. Updated Game info:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 82.04
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:09,161	0	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:18:09,161	0	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:18:09,176	15	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:09,177	16	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:09,178	17	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:18:09,178	17	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:18:09,178	17	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:09,178	17	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:09,179	18	org.example.Main	[main]	Platform update successfully. Updated Game info:Title: Golden Sun
+ 	 Platform: PC
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:09,179	18	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 82.04, 2024-01-26
+WARN	2024-01-26 10:18:09,179	18	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:18:09,179	18	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 82.04
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:09,179	18	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 82.04
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:09,180	19	org.example.Main	[main]	Play Time update successfully. Updated Game info:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 82.04
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:09,180	19	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:18:09,180	19	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:18:09,180	19	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:09,181	20	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, -5, 2024-01-26
+WARN	2024-01-26 10:18:09,183	22	org.example.Main	[main]	Throwing GameException due to negative Play Time:-5.0
+INFO	2024-01-26 10:18:09,185	24	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:18:09,185	24	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:18:09,185	24	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:09,185	24	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:09,186	25	org.example.Main	[main]	Genre update successfully. Updated Game info:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: Racing
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:09,186	25	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:18:09,186	25	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:18:09,186	25	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:09,186	25	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:09,187	26	org.example.Main	[main]	Title update successfully. Updated Game info:Title: Super Mario RPG
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:09,187	26	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:18:09,187	26	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:18:09,187	26	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:09,187	26	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+INFO	2024-01-26 10:18:09,187	26	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+WARN	2024-01-26 10:18:09,187	26	org.example.Main	[main]	Throwing GameException due to duplicate game Title in collection:Golden Sun
+INFO	2024-01-26 10:18:09,190	29	org.example.Main	[main]	Attempting to add a game:, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:18:09,190	29	org.example.Main	[main]	Throwing GameException due to empty title:
+INFO	2024-01-26 10:18:09,192	31	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:18:09,192	31	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:18:09,192	31	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:09,192	31	org.example.Main	[main]	Attempting to remove game with Title:Golden Sun
+INFO	2024-01-26 10:18:09,192	31	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:09,193	32	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:09,193	32	org.example.Main	[main]	Game removed successfully:Golden Sun
+INFO	2024-01-26 10:18:09,194	33	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:18:09,194	33	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:18:09,194	33	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+WARN	2024-01-26 10:18:09,194	33	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:18:09,196	35	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:18:09,196	35	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:18:09,196	35	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:18:09,196	35	org.example.Main	[main]	Attempting to remove game with Title:Super Mario Party
+WARN	2024-01-26 10:18:09,196	35	org.example.Main	[main]	Game not found in collection
+WARN	2024-01-26 10:18:09,197	36	org.example.Main	[main]	Throwing GameException because matching Title not found in collection:Super Mario Party
+INFO	2024-01-26 10:19:50,444	0	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, abcd, 2024-01-26
+WARN	2024-01-26 10:19:50,445	1	org.example.Main	[main]	Throwing NumberFormatException because Play Time is not numerical:abcd
+INFO	2024-01-26 10:20:38,058	0	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, abcd, 2024-01-26
+WARN	2024-01-26 10:20:38,060	2	org.example.Main	[main]	Throwing NumberFormatException because Play Time is not numerical:abcd
+INFO	2024-01-26 10:20:56,622	0	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, abcd, 2024-01-26
+WARN	2024-01-26 10:20:56,625	3	org.example.Main	[main]	Throwing NumberFormatException because Play Time is not numerical:abcd
+INFO	2024-01-26 10:21:11,569	0	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:21:11,570	1	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:21:11,589	20	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:21:11,590	21	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:21:11,591	22	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:21:11,591	22	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:21:11,591	22	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:21:11,591	22	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:21:11,592	23	org.example.Main	[main]	Platform update successfully. Updated Game info:Title: Golden Sun
+ 	 Platform: PC
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:21:11,592	23	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 82.04, 2024-01-26
+WARN	2024-01-26 10:21:11,592	23	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:21:11,592	23	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 82.04
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:21:11,592	23	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 82.04
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:21:11,594	25	org.example.Main	[main]	Play Time update successfully. Updated Game info:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 82.04
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:21:11,594	25	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:21:11,594	25	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:21:11,594	25	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:21:11,594	25	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, -5, 2024-01-26
+WARN	2024-01-26 10:21:11,595	26	org.example.Main	[main]	Throwing GameException due to negative Play Time:-5.0
+INFO	2024-01-26 10:21:11,597	28	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:21:11,597	28	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:21:11,597	28	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:21:11,597	28	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:21:11,598	29	org.example.Main	[main]	Genre update successfully. Updated Game info:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: Racing
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:21:11,598	29	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:21:11,598	29	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:21:11,599	30	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:21:11,599	30	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:21:11,599	30	org.example.Main	[main]	Title update successfully. Updated Game info:Title: Super Mario RPG
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:21:11,599	30	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:21:11,599	30	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:21:11,599	30	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:21:11,599	30	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+INFO	2024-01-26 10:21:11,599	30	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+WARN	2024-01-26 10:21:11,599	30	org.example.Main	[main]	Throwing GameException due to duplicate game Title in collection:Golden Sun
+INFO	2024-01-26 10:21:11,601	32	org.example.Main	[main]	Attempting to add a game:, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:21:11,601	32	org.example.Main	[main]	Throwing GameException due to empty title:
+INFO	2024-01-26 10:21:11,602	33	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:21:11,602	33	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:21:11,602	33	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:21:11,602	33	org.example.Main	[main]	Attempting to remove game with Title:Golden Sun
+INFO	2024-01-26 10:21:11,602	33	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:21:11,602	33	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:21:11,604	35	org.example.Main	[main]	Game removed successfully:Golden Sun
+INFO	2024-01-26 10:21:11,604	35	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, abcd, 2024-01-26
+WARN	2024-01-26 10:21:11,604	35	org.example.Main	[main]	Throwing NumberFormatException because Play Time is not numerical:abcd
+INFO	2024-01-26 10:21:11,613	44	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:21:11,613	44	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:21:11,613	44	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+WARN	2024-01-26 10:21:11,613	44	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:21:11,615	46	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:21:11,615	46	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:21:11,615	46	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:21:11,615	46	org.example.Main	[main]	Attempting to remove game with Title:Super Mario Party
+WARN	2024-01-26 10:21:11,615	46	org.example.Main	[main]	Game not found in collection
+WARN	2024-01-26 10:21:11,615	46	org.example.Main	[main]	Throwing GameException because matching Title not found in collection:Super Mario Party
+INFO	2024-01-26 10:22:05,947	0	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, abcd, 2024-01-26
+WARN	2024-01-26 10:22:05,949	2	org.example.Main	[main]	Throwing NumberFormatException because Play Time is not numerical:abcd
+INFO	2024-01-26 10:22:19,147	0	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, abcd, 2024-01-26
+WARN	2024-01-26 10:22:19,150	3	org.example.Main	[main]	Throwing NumberFormatException because Play Time is not numerical:abcd
+INFO	2024-01-26 10:22:25,386	1	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:22:25,386	1	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:22:25,400	15	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:22:25,400	15	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:22:25,402	17	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:22:25,402	17	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:22:25,402	17	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:22:25,402	17	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:22:25,402	17	org.example.Main	[main]	Platform update successfully. Updated Game info:Title: Golden Sun
+ 	 Platform: PC
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:22:25,403	18	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 82.04, 2024-01-26
+WARN	2024-01-26 10:22:25,403	18	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:22:25,403	18	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 82.04
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:22:25,403	18	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 82.04
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:22:25,403	18	org.example.Main	[main]	Play Time update successfully. Updated Game info:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 82.04
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:22:25,404	19	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:22:25,404	19	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:22:25,404	19	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:22:25,404	19	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, -5, 2024-01-26
+WARN	2024-01-26 10:22:25,406	21	org.example.Main	[main]	Throwing GameException due to negative Play Time:-5.0
+INFO	2024-01-26 10:22:25,407	22	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:22:25,407	22	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:22:25,407	22	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:22:25,407	22	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:22:25,409	24	org.example.Main	[main]	Genre update successfully. Updated Game info:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: Racing
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:22:25,409	24	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:22:25,409	24	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:22:25,409	24	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:22:25,409	24	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:22:25,410	25	org.example.Main	[main]	Title update successfully. Updated Game info:Title: Super Mario RPG
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:22:25,410	25	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:22:25,410	25	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:22:25,410	25	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:22:25,410	25	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+INFO	2024-01-26 10:22:25,410	25	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+WARN	2024-01-26 10:22:25,410	25	org.example.Main	[main]	Throwing GameException due to duplicate game Title in collection:Golden Sun
+INFO	2024-01-26 10:22:25,411	26	org.example.Main	[main]	Attempting to add a game:, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:22:25,412	27	org.example.Main	[main]	Throwing GameException due to empty title:
+INFO	2024-01-26 10:22:25,412	27	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:22:25,412	27	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:22:25,412	27	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:22:25,413	28	org.example.Main	[main]	Attempting to remove game with Title:Golden Sun
+INFO	2024-01-26 10:22:25,413	28	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:22:25,413	28	org.example.Main	[main]	Game found in collection:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:22:25,413	28	org.example.Main	[main]	Game removed successfully:Golden Sun
+INFO	2024-01-26 10:22:25,414	29	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, abcd, 2024-01-26
+WARN	2024-01-26 10:22:25,414	29	org.example.Main	[main]	Throwing NumberFormatException because Play Time is not numerical:abcd
+INFO	2024-01-26 10:22:25,415	30	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:22:25,415	30	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:22:25,415	30	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+WARN	2024-01-26 10:22:25,415	30	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:22:25,416	31	org.example.Main	[main]	Attempting to add a game:Golden Sun, Nintendo Switch, RPG, 23.7, 2024-01-26
+WARN	2024-01-26 10:22:25,416	31	org.example.Main	[main]	Game not found in collection
+INFO	2024-01-26 10:22:25,416	31	org.example.Main	[main]	Game added successfully:Title: Golden Sun
+ 	 Platform: Nintendo Switch
+ 	 Genre: RPG
+ 	 Play Time: 23.7
+ 	 Date Added: 2024-01-26
+
+INFO	2024-01-26 10:22:25,416	31	org.example.Main	[main]	Attempting to remove game with Title:Super Mario Party
+WARN	2024-01-26 10:22:25,416	31	org.example.Main	[main]	Game not found in collection
+WARN	2024-01-26 10:22:25,416	31	org.example.Main	[main]	Throwing GameException because matching Title not found in collection:Super Mario Party

@@ -17,8 +17,10 @@ public class GameCollectionService {
     List<Game> gameCollection = new ArrayList<>();
 
     public void parseString(String title, String platform, String genre, Double playTime, LocalDate dateAdded){
-
     }
+
+    /*
+    * Add a new game to the list*/
     public void addGame(String title, String platform, String genre, String playTimeString) throws GameException {
         LocalDate dateAdded = LocalDate.now();
         Main.log.info("Attempting to add a game:" + title +", " +platform +", " + genre +", " + playTimeString + ", " + dateAdded);
@@ -55,6 +57,7 @@ public class GameCollectionService {
         }
     }
 
+    /*Find a game by its title and remove that game from the list*/
     public void removeGameByTitle(String title) throws GameException {
         Main.log.info("Attempting to remove game with Title:" + title);
         if(getGameByTitle(title) == null)
@@ -72,10 +75,12 @@ public class GameCollectionService {
         }
     }
 
+    /*Return the entire collection*/
     public List<Game> getGameCollection(){
         return gameCollection;
     }
 
+    /*Return a game by searching with its title*/
     public Game getGameByTitle(String title){
         for (Game game : gameCollection) {
             if (game.getTitle().equalsIgnoreCase(title))
@@ -89,6 +94,7 @@ public class GameCollectionService {
         return null;
     }
 
+    /*Check prior to updating game for returning data to user*/
     public Game prepUpdateGame(String title) throws GameException{
         Game gameToUpdate = getGameByTitle(title);
         if (gameToUpdate == null){
@@ -99,22 +105,28 @@ public class GameCollectionService {
         }
     }
 
+    /*Update title field of selected game*/
     public void updateTitle(Game gameToUpdate, String newTitle){
         gameToUpdate.setTitle(newTitle);
         Main.log.info("Title update successfully. Updated Game info:" + gameToUpdate);
         System.out.println("Title updated successfully");
     }
 
+    /*Update platform field of selected game*/
     public void updatePlatform(Game gameToUpdate, String newPlatform){
         gameToUpdate.setPlatform(newPlatform);
         Main.log.info("Platform update successfully. Updated Game info:" + gameToUpdate);
         System.out.println("Platform updated successfully");
     }
+
+    /*Update genre field of selected game*/
     public void updateGenre(Game gameToUpdate, String newGenre){
         gameToUpdate.setGenre(newGenre);
         Main.log.info("Genre update successfully. Updated Game info:" + gameToUpdate);
         System.out.println("Genre updated successfully");
     }
+
+    /*Update play time field of selected game*/
     public void updatePlayTime(Game gameToUpdate, String newPlayTime) throws NumberFormatException{
         gameToUpdate.setPlayTime(Double.parseDouble(newPlayTime));
         Main.log.info("Play Time update successfully. Updated Game info:" + gameToUpdate);
