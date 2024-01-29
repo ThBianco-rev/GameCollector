@@ -37,7 +37,7 @@ public class Main {
                 }catch (GameException e){
                     System.out.println(e);
                 }catch (InputException e){
-                    System.out.println(e);
+                    System.out.println(e.getMessage());
                 }catch (ArrayIndexOutOfBoundsException e){
                     System.out.println("You caused an ArrayIndexOutOfBoundsException! Please enter all necessary fields.");
                 }catch (NumberFormatException e){

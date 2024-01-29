@@ -16,9 +16,6 @@ public class GameCollectionService {
  */
     List<Game> gameCollection = new ArrayList<>();
 
-    public void parseString(String title, String platform, String genre, Double playTime, LocalDate dateAdded){
-    }
-
     /*
     * Add a new game to the list*/
     public void addGame(String title, String platform, String genre, String playTimeString) throws GameException {
